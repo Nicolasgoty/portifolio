@@ -4,21 +4,35 @@ header{
     background-color: rgba(14, 9, 17, 0.758);
     font-size: xx-large;
     font-family: Arial, Helvetica, sans-serif;
+   
 }
 
-h1, h2{
+h1, h2 {
     text-align: center;
-    text-decoration: none
+    text-decoration: none;
+}
+
+main{
+    padding: 20px 0;
+    text-align: center;
+}
+ul{
+    margin: 30px 0;
 }
 li{
-    margin: 10px 0;
+    margin: 15px auto;
     padding: 10px 0;
-    background-color: whitesmoke;
+    width: 30% ;
+    background-color: gray;
     text-align: center;
     text-transform: uppercase;
-    color: black;
     font-weight: bold;
-    text-align: center;
+    color: black;
+}
+li:hover{
+    width: 32%;
+    border-radius: 10px;
+
 }
 a{
     font-size: large;
@@ -27,14 +41,17 @@ a{
   
 }
 #ah{
-    font-size: x-large;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    font-family: 'Cambria', 'Cochin', Georgia, Times, 'Times New Roman', serif;
     text-align: center;
 }
-ul{
-    margin: 10px 0;
-}
-footer p{
+footer{
 text-align: center;
 text-decoration: none;
+background-color: rgba(14, 9, 17, 0.758);
+}
+
+footer img{
+    width: 200px;
+    margin-bottom: 15px;
 }
