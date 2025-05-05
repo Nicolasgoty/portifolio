@@ -1,0 +1,40 @@
+header{
+    text-align: center;
+    top: 300px;
+    background-color: rgba(14, 9, 17, 0.758);
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2{
+    text-align: center;
+    text-decoration: none
+}
+li{
+    margin: 10px 0;
+    padding: 10px 0;
+    background-color: whitesmoke;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+a{
+    font-size: large;
+    text-align: center;
+    text-decoration: none;
+  
+}
+#ah{
+    font-size: x-large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+ul{
+    margin: 10px 0;
+}
+footer p{
+text-align: center;
+text-decoration: none;
+}
