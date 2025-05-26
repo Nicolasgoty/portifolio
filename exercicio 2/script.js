@@ -1,5 +1,5 @@
 function calculo() {
-    let ano= 0;
+    let ano = 0;
     let idade;
 //declarei a função e coloquei duas variáveis.
     ano = Number(window.prompt('Digite seu ano de nascimento:'));
