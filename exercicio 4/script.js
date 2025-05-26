@@ -12,7 +12,7 @@ function media() {
 
      if( nota >6){
               resultado = document.querySelector('#resultado');
-              resultado.innerHTML = `<p> Você foi aprovado ${nota.toFixed(1)}</p>`
+              resultado.innerHTML = `<p> Você foi aprovado com ${nota.toFixed(1)} . Parabéns!!</p>`
               console.log("Você foi aprovado");
        } else{
          let dif = 6 - nota;
