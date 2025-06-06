@@ -10,14 +10,14 @@ function media() {
     console.log(resultado);
     // mostra o resultado na tela.
 
-     if( nota >6){
+     if( nota >60){
               resultado = document.querySelector('#resultado');
-              resultado.innerHTML = `<p> Você foi aprovado com ${nota.toFixed(1)} . Parabéns!!</p>`
+              resultado.innerHTML = `<p> Você foi aprovado com ${nota.toFixed(1)}. Parabéns!!🎆🎆</p>`
               console.log("Você foi aprovado");
        } else{
-         let dif = 6 - nota;
+         let dif = 60 - nota;
               resultado = document.querySelector('#resultado');
-              resultado.innerHTML = `<p> Você foi reprovado e faltam ${dif.toFixed(1)} pontos</p>`;
+              resultado.innerHTML = `<p> Você foi reprovado com ${nota.toFixed(1)} e faltam ${dif.toFixed(1)} pontos.😢</p>`;
            
        }
      //mostra o resultado da conta já falando se você foi aprovado ou não.
