@@ -5,6 +5,8 @@ function contar(){
     while(n2 <= 10){
         n1.innerHTML += `${n2},&#10132`;
         n2++;
+     
     }
     n1.innerHTML += `&#x1F3C1`;
+   
 }
