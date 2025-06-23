@@ -9,5 +9,5 @@ function diferenca(){
     } else {
         alert("0 2° número é maior");
     }
-     // declarei uma função que subtrai os dois números e mostra qual é o maior.
+     // declarei uma função que calcula a diferença dos dois números e mostra qual é o maior.
 }
