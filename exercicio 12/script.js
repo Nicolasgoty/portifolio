@@ -3,7 +3,7 @@ function contar() {
         let contador = 1;
         let saida = "";
 // declarei uma função e 3 variáveis.
-    numero =window.prompt("Digite um número de 1 a 10");
+    numero =window.prompt("Digite um número para fazer a tabuada");
     if (isNaN(numero)) {
         saida = "<p>Por favor, digite um número válido.</p>";
     } else {
